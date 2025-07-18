@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: rgb(41, 234, 234);
+    padding: 30px;
+    border-radius: 5px;
+    width: 400px;
+
+    & h2 {
+        font-size: 30px;
+        font-weight: bold;
+        text-transform: capitalize;
+        font-family: sans-serif;
+    }
+
+    & input {
+        padding: 15px 4px;
+        width: 100%;
+        border-radius: 5px;
+        border: 1px solid black;
+        outline: none;
+        font-weight: 500;
+        font-size: 15px;
+    }
+
+    & button {
+        width: 180px;
+        height: 48px;
+        border-radius: 5px;
+        border: none;
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    & select {
+        padding: 15px 4px;
+        width: 100%;
+        border-radius: 5px;
+        font-weight: 500;
+        font-size: 15px;
+        border: 1px solid black;
+        outline: none;
+
+    }
+}
+
+.radio-btn{
+    width: 100%;
+  display: flex;
+  flex-direction: column;
+  
+}
+.radio-btn-value {
+    /* background-color: red; */
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 10px;
+    width: 100%;
+   
+
+}

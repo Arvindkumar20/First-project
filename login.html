@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <div class="form-container">
+        <form class="form">
+            <h2>Welcome back</h2>
+            <input type="email" name="email" id="email" class="email" placeholder="Enter your email..." required>
+            <input type="password" name="password" id="password" class="password" placeholder="Enter your password..."
+                required>
+
+            <input type="confirm-password" name="confirm-password" id="confirm-password" class="confirm-password"
+                placeholder="Enter your confirm-password..." required>
+            <select name="geneder" id="geneder" class="select" required>
+                <option value="">Choose geneder</option>
+                <option value="male">male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+            <div class="radio-btn">
+                <section class="radio-btn-value">
+                    <div>
+                        <input type="radio" name="education" value="graduate" id="graduate" class="graduate" required>
+                    </div>
+                    <div> graduate</div>
+                </section>
+                <section class="radio-btn-value">
+                    <div>
+                        <input type="radio" name="education" value="un-graduate" id="un-graduate" class="un-graduate"
+                            required>
+                    </div>
+                    <div>
+                        <label for="education" name="education"> un-graduate</label>
+                    </div>
+                </section>
+                <section class="radio-btn-value">
+                    <div> <input type="radio" name="education" value="post-graduate" id="post-graduate"
+                            class="post-graduate" required></div>
+                    <div> post-graduate</div>
+                </section>
+            </div>
+            <button type="submit" id="btn" class="btn" title="login ">Login</button>
+            <span>Don't have an account <a href="signup.html" title="signup">signup</a></span>
+        </form>
+    </div>
+</body>
+
+</html>
