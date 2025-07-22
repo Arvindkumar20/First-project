@@ -20,6 +20,33 @@
 // user="iuhrufg"
 // console.log(user);
 
+// data type  
+
+
+
+
+// premitive 
+// String 
+// int 
+// Boolean
+// bigint
+// char
+// Symbol 
+// Nubmer
+// null
+// undefined
+
+// non premitive 
+// object 
+// array 
+// function
+
+// let a=null;
+
+
+
+
+
 
 const checkNumber = (num) => {
     if (!num || num == "" || num == null) {

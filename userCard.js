@@ -16,7 +16,6 @@ user.skills.map((skill, index) => {
     btn.key=index;
     btn.innerText = skill
     skills.appendChild(btn);
-
 }
 );
 }
